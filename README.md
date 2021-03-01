@@ -14,7 +14,8 @@
 - `model.py` contains our models
 - `load_dataset.py` loads the dataset set with our format
 
-## Dataset format
+## Project 
+- See the dataset folder for our format
 ```
 project
 │   README.md
