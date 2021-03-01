@@ -18,18 +18,33 @@
 ```
 project
 │   README.md
-│   file001.txt    
+│   run_model.py 
+|   model.py
+|   load_dataset.py
 │
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
+└───data
 │   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
+│   └───simple_images
+│       │   answers.txt
+│       │  
+│       └───questions
+│       │   test_questions.json
+|       |   train_questions.json
+│       │  
+|       └───train
+|       |   _annotations.txt
+|       |   _classes.txt
+|       |   img1.png
+|       |   img2.png
+|       |   ...
+│       │  
+|       └───valid
+|       |   _annotations.txt
+|       |   _classes.txt
+|       |   img7.png
+|       |   img8.png
+|       |   ...
 │   
-└───folder2
-    │   file021.txt
-    │   file022.txt
+└───models
+    │   model_1.pth
 ```
