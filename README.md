@@ -13,3 +13,23 @@
 - `run_model.py` runs a toy example
 - `model.py` contains our models
 - `load_dataset.py` loads the dataset set with our format
+
+## Dataset format
+```
+project
+│   README.md
+│   file001.txt    
+│
+└───folder1
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───subfolder1
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+│   
+└───folder2
+    │   file021.txt
+    │   file022.txt
+```
